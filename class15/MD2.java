@@ -20,7 +20,6 @@ public class MD2 {
         Task3 pali = new Task3();
         pali.printIsPalindrome("lol");
 
-
     }
 
 

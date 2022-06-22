@@ -1,0 +1,50 @@
+What is Constructors in Java
+    A Constructor is a special block of code that helps us give initial values to the p of a class.
+    Initialization of object or instance.
+
+Why we should use a Constructor?
+    1) When we use the Constructor to initialize the object, it looks more readable and cleaner
+
+    2) If the fields of a class or private its not possible to access them outside of a class without constructor
+       or a method which means we can't initialize them without a method or constructor.
+
+    3) we can enforce rules like what kind of values are assigned to variables with the help of a constructor.
+
+    4) if we want to make sure that some lines of code should always be executed when the object of a class is
+       created we can put that code inside the constructor
+
+How to use Constructor?
+    We create constructors inside the class and when an object of that class is created the constructor is executed
+    automatically.
+
+Example:
+Class car{
+String make
+String model
+
+car(String carMake, String carModel){
+make = carMake;
+model =  carModel;
+
+}
+public static void main(String[] args){
+car car1 = new car("Mercedes", "m4");
+}}
+
+Rules:
+    1) Constructors don't have a return types not even a void
+
+    2) The name of constructor should always be the same as the class
+
+    3) Constructors can't be created with a static keyword
+
+    4) We can use any access modifiers with constructor (Public, Private, Default, Protected)
+
+    5) If we don't write a constructor in a class a default with a zero parameters is created by compiler(Takes the code
+       written by us , and it converse that code to byte code which is easier for Java to understand).
+
+    6) it is not allowed to have two constructors in a class with same number of parameter and same type this keyword:
+       We can use "this" keyword to access the instance variables when you have the same name variables in your method or
+       Constructor or any block of code
+
+
