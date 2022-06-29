@@ -102,5 +102,5 @@ Instance variables:
 
 Static variables:
     pros:
-        we can call static varialbles without creating an object of a class
+        we can call static variables without creating an object of a class
         We can share a single variable between all the objects of a class
